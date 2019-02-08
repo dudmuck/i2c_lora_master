@@ -1,0 +1,13 @@
+{
+    "serviceRate": 2000,
+    "tx_dbm": 17,
+    "rssiSamples": 64,
+    "lora_sf": 8,
+    "lora_cr": 1,
+    "preamble_symbs": 8,
+    "cfMHz": "910.8",
+    "beacon_size": 6,
+    "bw_khz": 500,
+    "rand_max_ms": 400,
+    "rand_min_ms": 50
+}
