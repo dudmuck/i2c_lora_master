@@ -492,12 +492,13 @@ void cmd_help(uint8_t args_at)
 
 int load_json_config(void)
 {
+    const char* confFile = CONF_DIR "/test_conf.json";
+
     int len, ret = -1;
     json_object *top, *obj;
     enum json_tokener_error jerr;
     struct json_tokener *tok = json_tokener_new();
     FILE *file;
-    const char* confFile ="../test_conf.json";
 
     file = fopen(confFile, "r");
 
